@@ -1,0 +1,210 @@
+* {
+    margin-right: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Times New Roman", Georgia, Serif;
+    letter-spacing: 4px;
+    padding: 3px 30px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    padding: 15px;
+}
+.min-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* .navbar:hover{
+    background-color:solid  rgb(22, 20, 20);
+} */
+
+.list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 20px;  
+}
+
+
+.contain-nav{
+    background-image: url("hamburger.jpg");
+    background-size: cover;
+    height: 600px;
+    
+    
+}
+
+.humburger {
+    background-image:none;
+    width: 50px
+}
+.heading:hover{
+    background-color: rgb(167, 159, 159);
+    padding: 8px;
+}
+.mainu:hover{
+    background-color: rgb(184, 175, 175);
+    padding: 8px;
+}
+
+.w3 {
+    font-size: 35px;
+    font-family: Verdana, sans-serif;
+    letter-spacing: 6px;
+    color: grey;
+    margin-top: 500px;
+    padding-left: 20px;
+}
+
+.head-2 {
+    display: flex;
+    gap: 50px;
+    padding: 3px 60px;
+}
+
+.p1 {
+    letter-spacing: 2px;
+    padding-right: 35px;
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+.p2 {
+    color: gray;
+    font-size: 18px;
+}
+
+.table2 {
+    height: 600px;
+    width: 500px;
+}
+
+.table-3 {
+    display: flex;
+    gap: 100px;
+    margin: 30px;
+}
+
+.image-3 {
+    /* height:0px; */
+    width: 30px;
+}
+
+.page3-para {
+    color: gray;
+    font-size: 15px;
+}
+
+.page3-left {
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.page-2head {
+    letter-spacing: 5px;
+    font-family: Verdana, sans-serif;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.page-2head2 {
+    letter-spacing: 5px;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.headmenu {
+    color: black;
+    font-size: 35px;
+    padding-left: 150px;
+    letter-spacing: 5px;
+}
+
+.table-3 {
+    margin-top: 105px;
+    padding-left: 88px;
+
+}
+
+.menu {
+    letter-spacing: 0px;
+}
+
+.page3-left {
+    padding-top: 8px;
+    letter-spacing: 5px;
+}
+
+.page3-para {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.h1{
+    padding-bottom: 10px;
+}
+.h2 {
+    color:#607d8b!important;
+}
+.contact{
+    font-family: "playfair Display";
+    letter-spacing: 5px;
+    color: rgb(20, 19, 19);
+    font-size: 34px;
+    padding-bottom: 20px;
+    
+}
+.contactbox{
+    margin-left: 100px;
+    padding: 50px;
+    padding-left: 15px;
+}
+
+.hr{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: rgb(99, 93, 93);
+}
+.input{
+    width: 70rem;
+    color: black;
+    height: 50px;
+    border: none;
+    
+}
+.button{
+    border: none;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-family:"Times New Roman", Georgia ;
+    margin-top: 20px;
+    
+}
+.button:hover{
+    background-color: rgb(199, 188, 188);
+    padding: 8px;
+}
+
+.blanck{
+    background-color: rgb(240, 237, 237);
+    height: 100px;
+    text-align: center;
+}
+.power{
+    padding: 30px;
+}
